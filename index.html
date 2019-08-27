@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="color">change color background</button>
+    <script>
+        // function background() {
+        // document.body.style.background = "green";
+        // }
+        // btn.addEventListener('click', background);
+
+        var colors = () => {
+            document.body.style.background = "green";
+        }
+        var btn = document.getElementById('color');
+        btn.addEventListener('click', colors);
+    </script>
+</body>
+</html>
